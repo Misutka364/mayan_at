@@ -62,6 +62,8 @@ body {
     left: 10px;
     color: #ffcc00;
     text-decoration: none;
+    border: 2px solid #ffcc00;
+    padding: 1%;
   }
 
   .output-group {
@@ -69,4 +71,18 @@ body {
     justify-content: center;
     gap: 30%;
     margin-bottom: 20px;
+  }
+
+  @media (orientation: portrait) and (max-width: 450px) {
+    .result {
+      font-size: 2em;
+    }
+
+    .needed {
+      margin-right: 20%;
+    }
+
+    .mayan-num {
+      margin-left: 20%;
+    }
   }
