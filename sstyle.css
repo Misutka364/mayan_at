@@ -44,6 +44,8 @@ body {
     left: 10px;
     color: #ffcc00;
     text-decoration: none;
+    border: 2px solid #ffcc00;
+    padding: 1%;
   }
 
   .center-p {
