@@ -52,6 +52,8 @@ body {
     left: 10px;
     color: #ffcc00;
     text-decoration: none;
+    border: 2px solid #ffcc00;
+    padding: 1%;
   }
 
   input {
@@ -71,3 +73,18 @@ body {
     display: block;
     margin: 0 auto;
     }
+
+  @media (orientation: portrait) and (max-width: 450px) {
+    input {
+      background-color: #444;
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 340px;
+      text-align: center;
+      font-size: 1em;
+    }
+    .group-name {
+      font-size: 0.8em;
+    }
+  }
