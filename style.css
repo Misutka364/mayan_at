@@ -22,7 +22,20 @@ body {
     font-family: "Madimi One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    transform-style: flat;
+    background-position: center;
+    place-self: center;
+	background: linear-gradient(90deg, #ff5733, yellow, #ff5733) -100%/ 200%;
+	-webkit-background-clip: text;
+	        background-clip: text;
+	color: transparent;
+	animation: shimmer 2s linear infinite;
+    overflow: auto;
 }
+
+@keyframes shimmer { to { background-position: 100% } }
+
+
 .subtitle {
     color: white;
     font-size: 1.5em;
@@ -34,4 +47,6 @@ body {
     text-decoration: underline;
     display: block;
     margin-bottom: 10px;
+    box-shadow:0 0 10px lightgrey;
+    background-color: #1e1e1e;
 }
