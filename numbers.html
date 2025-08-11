@@ -10,17 +10,16 @@
     <div class="container">
         <h1 class="heading">ЦИФРЫ</h1>
         <p class="description">Генератор обычных цифр в Майя</p>
-        <input type="number" id="number" placeholder="цифра">
+        <input type="number" id="number" placeholder="цифра" oninput="changeNum()">
         <p class="result-title">Результат</p>
         <div class="result">
         <span>МАЙЯ</span>
         <span>БУКВАЛЬНО</span>
         </div>
         <div class="output-group">
-            <input class="mayan-num" id="mayan">
-            <input class="needed" id="in-two-words">
+          <input class="mayan-num" id="mayan" readonly>
+          <input class="needed" id="in-two-words" readonly>
         </div>
-        <p class="description">Пока доступно только до 30! Скоро будет больше!</p>
     </div>
     <script src="nscript.js"></script>
   </body>
