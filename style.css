@@ -42,11 +42,11 @@ body {
     margin-bottom: 20px;
 }
 .link {
-    color: #ffcc00;
+    color: #ffaa00;
     font-size: 1.2em;
     text-decoration: underline;
     display: block;
     margin-bottom: 10px;
-    box-shadow:0 0 10px lightgrey;
-    background-color: #1e1e1e;
+    box-shadow:0 0 10px #5e5e5e;
+    background-color: #3e3e3e;
 }
